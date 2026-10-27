@@ -1,10 +1,10 @@
-# Run `hello-world`
+# Run `hello-world` container
 
-We will execute command:
+Can you predict what will happen when you execute command:
 
 `docker run hello-world`{{exec}}
 
-Can you predict what will happen?
+
 
 
 # List all local images
@@ -16,3 +16,20 @@ Can you predict what will happen?
 `docker ps`{{exec}}
 
 Can you see `hello-world` container that you run?
+
+<details><summary>Tip</summary>
+
+```plain
+docker ps -h
+```{{exec}}
+
+</details>
+
+
+<details><summary>Solution</summary>
+
+```plain
+docker ps -a
+```{{exec}}
+
+</details>
