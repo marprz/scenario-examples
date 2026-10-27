@@ -2,10 +2,10 @@
 
 Your demo files are already in `/root/demo`. Let's look at them.
 
-`````
+```
 cd /root/demo
 ls -l
-````{{exec}}
+```{{exec}}
 
 Take a look at the Dockerfile:
 
