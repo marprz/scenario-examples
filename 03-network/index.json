@@ -10,8 +10,10 @@
         { "file": "*", "target": "/root/demo" },
         { "file": "api/app.py", "target": "/root/demo/api"},
         { "file": "api/Dockerfile", "target": "/root/demo/api"},
+        { "file": "api/requirements.txt", "target": "/root/demo/api"},
         { "file": "frontend/app.py", "target": "/root/demo/frontend"},
-        { "file": "frontend/Dockerfile", "target": "/root/demo/frontend"}
+        { "file": "frontend/Dockerfile", "target": "/root/demo/frontend"},
+        { "file": "frontend/requirements.txt", "target": "/root/demo/frontend"}
       ]
     }
   },
