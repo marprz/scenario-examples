@@ -1,0 +1,16 @@
+# Everything from the manual networking steps, in one file.
+# Compose creates a network for the project automatically,
+# so the frontend finds the API by its service name: "api".
+services:
+  api:
+    build: ./api
+    # No "ports:" here: only the frontend needs to reach the API
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "8080:5000"
+    environment:
+      API_URL: http://api:8000
+    depends_on:
+      - api
