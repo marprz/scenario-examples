@@ -1,0 +1,16 @@
+{
+  "title": "Docker Intro",
+  "details": {
+    "steps": [
+      { "title": "Build the image", "text": "step1.md" }
+    ],
+    "assets": {
+      "host01": [
+        { "file": "*", "target": "/root/demo" }
+      ]
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}

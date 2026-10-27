@@ -1,0 +1,5 @@
+# Files that should never be copied into the image
+__pycache__/
+*.pyc
+.env
+README.md
