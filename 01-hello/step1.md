@@ -56,15 +56,3 @@ Open a shell inside the running container (type `exit` to leave):
 `docker rm -f web`{{exec interrupt}}
 
 `docker ps -a`{{exec}}
-````
-
-Two things to check so this works on Killercoda. Your `app.py` needs to start the server and listen on all interfaces, since the Dockerfile uses `CMD ["python", "app.py"]` and Killercoda's port access only reaches services on `0.0.0.0`:
-
-````python
-if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000)
-````
-
-Also, Killercoda's port links only work over plain HTTP, which Flask's dev server uses by default, so nothing extra is needed there.
-
-If you want more steps (volumes, bind mounts), add `step2.md`, `step3.md`, and so on, and list each one in the `steps` array of `index.json`.
