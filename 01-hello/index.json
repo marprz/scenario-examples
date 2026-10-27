@@ -1,5 +1,5 @@
 {
-  "title": "Docker Intro",
+  "title": "01-hello",
   "details": {
     "steps": [
       { "title": "Build the image", "text": "step1.md" }
