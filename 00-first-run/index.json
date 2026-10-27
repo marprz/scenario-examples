@@ -1,0 +1,12 @@
+{
+  "title": "00: Run simple container",
+  "description": "Run simple container",
+  "details": {
+    "steps": [
+      { "title": "Run the container", "text": "step1.md" }
+    ]
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
