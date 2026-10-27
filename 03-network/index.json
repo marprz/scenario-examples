@@ -7,7 +7,11 @@
     ],
     "assets": {
       "host01": [
-        { "file": "*", "target": "/root/demo" }
+        { "file": "*", "target": "/root/demo" },
+        { "file": "api/app.py", "target": "/root/demo/api"},
+        { "file": "api/Dockerfile", "target": "/root/demo/api"},
+        { "file": "frontend/app.py", "target": "/root/demo/frontend"},
+        { "file": "frontend/Dockerfile", "target": "/root/demo/frontend"}
       ]
     }
   },
