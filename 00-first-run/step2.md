@@ -1,9 +1,26 @@
 # List all local images
 
-`docker images`{{exec}}
+You can list all local images with command:
+
+```
+docker images
+```{{exec}}
+
+You can see on the list `hello-world:latest`
+
+If you don't specify a tag for image to be pulled, Docker will use the latest one.
+You can try to pull an image with specified tags as well:
+
+```
+docker pull hello-world:linux
+```{{exec}}
+
+`docker pull` download the image to your machine.
+List all of the images again.
 
 # List all running containers
 
+Now list containers with:
 `docker ps`{{exec}}
 
 Can you see `hello-world` container that you run?
