@@ -4,8 +4,12 @@
   "details": {
     "steps": [
       { "title": "Run the container", "text": "step1.md" },
-      { "title": "List containers and images", "text": "step2.md" }
-    ]
+      { "title": "List containers and images", "text": "step2.md" },
+      { "title": "Remove containers and images", "text": "step3.md" }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
   },
   "backend": {
     "imageid": "ubuntu"
