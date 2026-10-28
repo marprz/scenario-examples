@@ -1,6 +1,6 @@
 {
-  "title": "00: Run simple container",
-  "description": "Run simple container",
+  "title": "00-first-container",
+  "description": "Run simple container, list and remove images and containers",
   "details": {
     "steps": [
       { "title": "Run the container", "text": "step1.md" }
