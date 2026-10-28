@@ -1,4 +1,4 @@
-# List all running containers
+# List containers
 
 Now list containers with:
 `docker ps`{{exec}}
@@ -27,7 +27,7 @@ Now list all of containers again and find `hello1`.
 
 </details>
 
-# List all local images
+# List images
 
 You can list all local images with command:
 
