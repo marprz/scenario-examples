@@ -3,7 +3,8 @@
   "description": "Run simple container, list and remove images and containers",
   "details": {
     "steps": [
-      { "title": "Run the container", "text": "step1.md" }
+      { "title": "Run the container", "text": "step1.md" },
+      { "title": "List containers and images", "text": "step2.md" }
     ]
   },
   "backend": {
