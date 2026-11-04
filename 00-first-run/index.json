@@ -6,7 +6,8 @@
       { "title": "Run the container", "text": "step1.md" },
       { "title": "List containers and images", "text": "step2.md" },
       { "title": "Remove containers and images", "text": "step3.md" },
-      { "title": "Step inside a container", "text": "step4.md" }
+      { "title": "Step inside a container", "text": "step4.md" },
+      { "title": "Isolation in practise", "text": "step5.md" }
     ],
     "finish": {
       "text": "finish.md"
