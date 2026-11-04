@@ -1,9 +1,12 @@
 {
   "title": "03-network",
-  "description": "Build your first container",
+  "description": "Two containers talking to each other",
   "details": {
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
-      { "title": "Build the image", "text": "step1.md" }
+      { "title": "Run both images and run them on the default network", "text": "step1.md" }
     ],
     "assets": {
       "host01": [
