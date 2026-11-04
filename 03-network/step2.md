@@ -11,3 +11,7 @@ Refresh the page `localhost:8080` (or `curl localhost:8080`{{exec}}).
 Can you talk directly to the `api`?
 
 `curl localhost:8000/fact`{{exec}}
+
+## Clean up
+
+`docker rm -f api frontend`{{exec}}
