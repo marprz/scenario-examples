@@ -1,5 +1,5 @@
 Everything that we've done manually earlier, can be done with Docker compose in one file.
-Look at `compose.yaml` (`cat compose.yaml`{{exec}}) first: two services, the `API_URL` setting, and `ports` only on the frontend.
+Look at `compose.yaml` first: two services, the `API_URL` setting, and `ports` only on the frontend.
 
 `docker-compose up -d --build`{{exec}}
 
