@@ -8,3 +8,5 @@ In this section you've learnt basic Docker commands:
 - `docker ps -a` to list all containers
 - `docker rm <container>` to remove a container
 - `docker rmi <image>` to remove an image
+- `docker run -it --name test ubuntu bash` to run a container with interactive terminal
+- `docker start -ai test` to get back into a container

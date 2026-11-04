@@ -1,7 +1,9 @@
 Create a file inside our container:
+
 `echo "important data" > /notes.txt`{{exec}}
 
 Verify the file was created by getting its content:
+
 `cat /notes.txt`{{exec}}
 
 Let's now check what will happen with this file if you remove this container and start a fresh one:

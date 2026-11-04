@@ -17,6 +17,8 @@ Why isn't the `hello-world` listed?
 
 `docker ps -a`{{exec}}
 
+</details>
+
 In your `docker run hello-world` command you didn't specify the container name, so it received a random one.
 
 If you want to give container a name, run:
@@ -24,8 +26,6 @@ If you want to give container a name, run:
 `docker run --name hello1 hello-world`{{exec}}.
 
 Now list all of containers again and find `hello1`.
-
-</details>
 
 # List images
 

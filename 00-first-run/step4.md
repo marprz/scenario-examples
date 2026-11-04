@@ -6,7 +6,7 @@ Execute command:
 
 `docker run -it --name test ubuntu bash`{{exec}}
 
-Let's analyse this command:
+What does this command mean:
 - `docker run` - creates a new container from an image and starts it
 - `-i` - keeps input open
 - `-t` - allocates a pseudo-terminal, so you get a proper prompt, line editing, colors
