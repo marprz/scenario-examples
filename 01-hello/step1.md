@@ -19,21 +19,21 @@ Take a look at the Dockerfile:
 
 This command turns the Dockerfile (the recipe) into an image:
 
-`docker build -t flask-hello .`{{exec}}
+`docker build -t hello:1.0 .`{{exec}}
 
 Check that the image exists:
 
-`docker images flask-hello`{{exec}}
+`docker images hello:1.0`{{exec}}
 
 Notice how the second build is almost instant thanks to layer caching:
 
-`docker build -t flask-hello .`{{exec}}
+`docker build -t hello:1.0 .`{{exec}}
 
 ## Run a container
 
 Start a container in the background and publish port 5000:
 
-`docker run -d -p 5000:5000 --name web flask-hello`{{exec}}
+`docker run -d -p 5000:5000 --name web hello:1.0`{{exec}}
 
 `docker ps`{{exec}}
 
