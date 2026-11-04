@@ -17,7 +17,7 @@ docker run -d --name api facts-api
 docker run -d --name frontend -p 8080:5000 facts-frontend
 ```{{exec}}
 
-Before you open port 8080 in the browser (or `curl localhost:8080`), try to predict: will the frontend find the API?
+Before you open port 8080 in the browser (or `curl localhost:8080`{{exec}}), try to predict: will the frontend find the API?
 
 <details><summary>Answer</summary>
 

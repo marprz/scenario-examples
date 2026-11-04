@@ -6,7 +6,10 @@
       "text": "intro.md"
     },
     "steps": [
-      { "title": "Run both images and run them on the default network", "text": "step1.md" }
+      { "title": "Run both images", "text": "step1.md" },
+      { "title": "Put containers on a user-defined network", "text": "step2.md" },
+      { "title": "Use Docker Compose", "text": "step3.md" }
+
     ],
     "assets": {
       "host01": [
