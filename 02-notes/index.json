@@ -1,9 +1,12 @@
 {
   "title": "02-notes",
-  "description": "Build your first container",
+  "description": "Containers are disposable. Volumes keep data.",
   "details": {
     "steps": [
-      { "title": "Build the image", "text": "step1.md" }
+      { "title": "Build the image", "text": "step1.md" },
+      { "title": "Add notes, then delete the container", "text": "step2.md" },
+      { "title": "Keep the notes with a volume", "text": "step3.md" }
+
     ],
     "assets": {
       "host01": [

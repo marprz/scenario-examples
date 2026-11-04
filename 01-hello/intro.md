@@ -1,1 +1,1 @@
-In this section you will build 
+In this section you will build your first image and run container. Learn about layer caching.

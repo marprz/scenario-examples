@@ -25,5 +25,3 @@ and test old and new images:
 curl localhost:8081   # Hello, ... (version 1.0)
 curl localhost:8083   # Hi, ...    (version 1.1)
 ```{{exec}}
-
-`docker history hello:1.1`{{exec}}
