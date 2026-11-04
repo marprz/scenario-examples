@@ -1,12 +1,15 @@
 {
   "title": "01-hello",
-  "description": "Build your first container",
+  "description": "Build your first image and run container. Learn about layer caching.",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
-      { "title": "Build the image", "text": "step1.md" }
+      { "title": "Build the image", "text": "step1.md" },
+      { "title": "One image, many containers", "text": "step2.md" },
+      { "title": "Layer caching", "text": "step3.md" }
+
     ],
     "finish": {
       "text": "finish.md"

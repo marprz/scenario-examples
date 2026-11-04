@@ -4,8 +4,12 @@ Your demo files are already in `/root/demo`. Let's look at them.
 
 ```
 cd /root/demo
-ls -l
+ls
 ```{{exec}}
+
+`app.py`: the Flask app. It reads `NAME` from the environment and prints the container's hostname.
+
+`cat app.py`{{exec}}
 
 Take a look at the Dockerfile:
 
@@ -13,7 +17,7 @@ Take a look at the Dockerfile:
 
 ## Build the image
 
-This turns the Dockerfile (the recipe) into an image:
+This command turns the Dockerfile (the recipe) into an image:
 
 `docker build -t flask-hello .`{{exec}}
 
