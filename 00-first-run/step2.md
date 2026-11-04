@@ -8,7 +8,7 @@ Can you see `hello-world` container that you run?
 Why isn't the `hello-world` listed? 
 <details><summary>Tip</summary>
 
-`docker ps -h`{{exec}}
+`docker ps --help`{{exec}}
 
 </details>
 

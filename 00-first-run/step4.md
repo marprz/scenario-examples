@@ -22,8 +22,10 @@ Typing `exit`{{exec}} ends `bash` and, as it's the container's main process, the
 It is not deleted: `docker ps -a`{{exec}}.
 
 If you try again to run the same container: 
+
 `docker run -it --name test ubuntu bash`{{exec}}, 
 it returns an error because the name `test` is now taken.
 
 You can "get back" into a container with: 
+
 `docker start -ai test`{{exec}}
