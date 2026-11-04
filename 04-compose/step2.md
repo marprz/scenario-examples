@@ -4,11 +4,7 @@
 
 See what will happen:
 
-`curl localhost:8000`{{exec}}
-
-How to find what's wrong?
-
-`docker-compose logs web`{{exec}}
+`curl localhost:8080`{{exec}}
 
 Fix it:
 
@@ -16,4 +12,4 @@ Fix it:
 
 Verify that it works:
 
-`curl localhost:8000`{{exec}}
+`curl localhost:8080`{{exec}}

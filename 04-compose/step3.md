@@ -15,8 +15,11 @@ Now delete the volume too:
 ```
 docker-compose down -v
 docker-compose up -d
-curl localhost:8080
 ```{{exec}}
+
+Will the counter start from 1?
+
+`curl localhost:8080`{{exec}}
 
 ## Cleanup
 

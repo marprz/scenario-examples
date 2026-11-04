@@ -5,7 +5,7 @@ cd /root/demo
 ls
 ```{{exec}}
 
-`docker-compose up -d`
+`docker-compose up -d`{{exec}}
 
 What you will see?
 Compose building the `web` image, pulling `redis:7`, then creating a network, a volume and two containers.
