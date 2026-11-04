@@ -7,7 +7,8 @@
       { "title": "List containers and images", "text": "step2.md" },
       { "title": "Remove containers and images", "text": "step3.md" },
       { "title": "Step inside a container", "text": "step4.md" },
-      { "title": "Isolation in practise", "text": "step5.md" }
+      { "title": "Isolation in practise", "text": "step5.md" },
+      { "title": "Create a file inside a container", "text": "step6.md" }
     ],
     "finish": {
       "text": "finish.md"
