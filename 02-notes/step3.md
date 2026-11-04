@@ -8,7 +8,7 @@ and run a new one with volume:
 
 Add a note:
 
-`curl -d note="this one will survive" localhost:8080/add`
+`curl -d note="this one will survive" localhost:8080/add`{{exec}}
 
 Now remove the container:
 
@@ -16,11 +16,11 @@ Now remove the container:
 
 You can list all of containers' volumes with:
 
-`docker volume ls`.
+`docker volume ls`{{exec}}
 
-Now run the container and check the notes:
+Now run the container:
 
-```
-docker run -d --name notes -p 8080:5000 -v notes-data:/data notes:1.0
-curl localhost:8080/notes
-```{{exec}}
+`docker run -d --name notes -p 8080:5000 -v notes-data:/data notes:1.0`{{exec}}
+
+and check the notes:
+`curl localhost:8080/notes`{{exec}}
