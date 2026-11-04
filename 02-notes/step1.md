@@ -15,4 +15,4 @@ Take a look at the Dockerfile:
 
 ## Build the image
 
-`docker build -t notes:1.0 .`
+`docker build -t notes:1.0 .`{{exec}}
