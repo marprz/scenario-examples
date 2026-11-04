@@ -2,9 +2,15 @@
   "title": "01-hello",
   "description": "Build your first container",
   "details": {
+    "intro": {
+      "text": "intro.md"
+    },
     "steps": [
       { "title": "Build the image", "text": "step1.md" }
     ],
+    "finish": {
+      "text": "finish.md"
+    },
     "assets": {
       "host01": [
         { "file": "*", "target": "/root/demo" }
