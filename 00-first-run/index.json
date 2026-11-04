@@ -1,6 +1,6 @@
 {
   "title": "00-first-container",
-  "description": "Run simple container, list and remove images and containers",
+  "description": "Run simple container, list and remove images and containers. Step inside a container. See how does isolation work.",
   "details": {
     "steps": [
       { "title": "Run the container", "text": "step1.md" },
