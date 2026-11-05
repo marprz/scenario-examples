@@ -6,6 +6,10 @@ See what will happen:
 
 `curl localhost:8080`{{exec}}
 
+How to find what's wrong?
+
+`docker compose logs web`{{exec}}
+
 Fix it:
 
 `docker-compose start redis`{{exec}}

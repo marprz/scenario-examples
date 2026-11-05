@@ -23,5 +23,6 @@ Before you open port 8080 in the browser (or `curl localhost:8080`{{exec}}), try
 
 Both containers are running on the same machine but they can't see each other, as they are just separate containers. We need to "connect" them - put them both under the same network.
 
+![Scan results](./assets/03-network-bridge.jpg)
 
 </details>

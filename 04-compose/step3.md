@@ -5,7 +5,6 @@
 ```
 docker-compose down
 docker-compose up -d
-curl localhost:8080
 ```{{exec}}
 
 Will the count start again from 1?
